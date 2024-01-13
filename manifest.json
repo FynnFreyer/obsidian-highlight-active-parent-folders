@@ -1,0 +1,10 @@
+{
+	"id": "highlight-active-parent-folders",
+	"name": "Highlight Active Parent Folders",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Highlight parent folders of the active note in the file explorer.",
+	"author": "Fynn Freyer",
+	"authorUrl": "https://github.com/FynnFreyer/obsidian-highlight-active-parent-folders",
+	"isDesktopOnly": false
+}

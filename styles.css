@@ -1,0 +1,16 @@
+/**
+ * body:not(.is-grabbing) is used for increased specificity to avoid use of !important
+ * also this avoids weird behaviour on drag and drop handling of files
+ */
+
+body:not(.is-grabbing) div.nav-file-title.is-active,
+body:not(.is-grabbing) div.nav-folder-title.is-active {
+    font-weight: bold;
+    background-color: hsla(var(--color-accent-hsl), 0.4);
+}
+
+body:not(.is-grabbing) div.nav-file-title.is-active:hover,
+body:not(.is-grabbing) div.nav-folder-title.is-active:hover {
+    font-weight: bold;
+    background-color: hsla(var(--color-accent-hsl), 0.8);
+}
